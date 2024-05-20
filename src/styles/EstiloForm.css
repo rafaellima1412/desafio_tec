@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: #fff;
+  }
+  
+  div {
+    margin-bottom: 1em;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: .5em;
+    color: #333333;
+    font-size: 1.2em;
+  }
+  
+  input {
+    border: 1px solid #ccc;
+    padding: .5em;
+    font-size: 1.2em;
+    width: calc(100% - 1em);
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 0.7em;
+    color: #fff;
+    border: none;
+    border-radius: .3em;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button.details {
+    background-color: #007BFF;
+  }
+  
+  button.edit {
+    background-color: #28a745;
+  }
+  
+  button.delete {
+    background-color: #FF4136;
+  }
+  
+  button:last-child {
+    margin-right: 0;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  ul.device-list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  li.device-item {
+    padding: 1em;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li.device-item:last-child {
+    border-bottom: none;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .device-details {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: #fff;
+  }
+  
+  .device-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .device-details li {
+    padding: 1em 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .device-details li:last-child {
+    border-bottom: none;
+  }
+  .login-button {
+    background-color: #007BFF;
+    width: 100%;
+    text-align: center;
+  }
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  .logout-button {
+    background-color: #FF4136;
+    color: #fff;
+    border: none;
+    border-radius: .3em;
+    font-size: 1.2em;
+    padding: 0.7em;
+    cursor: pointer;
+    margin: 20px;
+  }
+  
+  .logout-button:hover {
+    opacity: 0.9;
+  }
+  .form-toggle-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: .3em;
+    font-size: 1.2em;
+    padding: 0.7em;
+    cursor: pointer;
+    margin: 20px;
+  }
+  
+  .form-toggle-button:hover {
+    opacity: 0.9;
+  }
+  
