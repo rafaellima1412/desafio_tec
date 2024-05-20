@@ -1,8 +1,20 @@
-# React + Vite
+#Front End
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**React + Vite**
 
-Currently, two official plugins are available:
+* mais atual que o create app do react.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**login**
+* user: admin
+* password: admin
+
+**Device Manager**
+  * Após logina tela incial e devive manager onde pode ver detalhes dos comandos, url, paramentros.
+  * Pode Editar e fazer update nas informações do Device.
+  * Device pode ser deletado.
+
+  **Edição Device via formulario**
+  
+  * Todas ações no sistema só podem ser realizadas por usuario logado.
+  * Front deve mandar o token a cada requisição.
+
