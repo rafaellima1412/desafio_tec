@@ -67,9 +67,9 @@ const App = () => {
     }
   };
 
-  const handleEditDevice = (device) => {
-    setSelectedDevice(device);
-  };
+  // const handleEditDevice = (device) => {
+  //   setSelectedDevice(device);
+  // };
 
   return (
     <Router>
