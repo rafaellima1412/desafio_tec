@@ -3,6 +3,7 @@
 **React + Vite**
 
 * mais atual que o create app do react.
+* para rodar npm run dev
 
 **login**
 * user: admin
